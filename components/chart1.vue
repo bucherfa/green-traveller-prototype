@@ -51,8 +51,8 @@ export default {
   stroke: #ADE8F4;
 }
 
-.ct-label {
-  fill: whitesmoke;
+.ct-chart-donut>g>.ct-label {
+  fill: darkblue;
   color: whitesmoke;
   font-size: 18px;
 }
