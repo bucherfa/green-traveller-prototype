@@ -1,4 +1,8 @@
 export default {
+  target: 'static',
+  router: {
+    base: '/green-traveller-prototype/'
+  },
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'green-traveller-prototype',
