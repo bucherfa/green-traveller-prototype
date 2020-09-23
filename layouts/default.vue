@@ -1,6 +1,9 @@
 <template>
   <div>
-    <Nuxt />
+    <div class="header">
+      <span>🚴🌳 Green Traveller</span>
+    </div>
+    <Nuxt class="nuxt" />
   </div>
 </template>
 
@@ -29,6 +32,23 @@ html {
 *::after {
   box-sizing: border-box;
   margin: 0;
+}
+
+.header {
+  color: white;
+  background: #1890FF;
+  padding: 0.8rem;
+  font-weight: bolder;
+  font-size: 18px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.nuxt {
+  margin-top: 52px;
 }
 
 .button--green {
