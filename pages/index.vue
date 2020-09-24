@@ -24,7 +24,7 @@ export default {
 }
 
 .fab {
-  background: #1890FF;
+  background: #7BAE7F;
   border-radius: 50%;
   color: white;
   position: fixed;

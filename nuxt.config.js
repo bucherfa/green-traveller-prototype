@@ -22,7 +22,7 @@ export default {
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
-    'ant-design-vue/dist/antd.css'
+    { src: 'ant-design-vue/dist/antd.less', lang: 'less' }
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
@@ -53,5 +53,16 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+    loaders: {
+      less: {
+        lessOptions: {
+          javascriptEnabled: true,
+          modifyVars: {
+            'primary-color': '#7BAE7F',
+            'link-color': '#7BAE7F'
+          }
+        }
+      }
+    }
   }
 }

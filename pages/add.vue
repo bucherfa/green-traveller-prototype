@@ -64,7 +64,7 @@ export default {
 
 <style>
 .ct-bar {
-  stroke: #40a9ff !important;
+  stroke: #7BAE7F !important;
 }
 .makespace {
   height: 12rem;

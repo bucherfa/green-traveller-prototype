@@ -35,23 +35,23 @@ export default {
 
 <style>
 .ct-series-a .ct-slice-donut {
-  stroke: #023E8A;
+  stroke: #F19C79;
 }
 
 .ct-series-b .ct-slice-donut {
-  stroke: #0096C7;
+  stroke: #CBDFBD;
 }
 
 .ct-series-c .ct-slice-donut {
-  stroke: #48CAE4;
+  stroke: #F6F4D2;
 }
 
 .ct-series-d .ct-slice-donut {
-  stroke: #ADE8F4;
+  stroke: #D4E09B;
 }
 
 .ct-chart-donut>g>.ct-label {
-  fill: darkblue;
+  fill: black;
   color: whitesmoke;
   font-size: 18px;
 }

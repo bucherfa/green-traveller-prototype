@@ -36,7 +36,7 @@ html {
 
 .header {
   color: white;
-  background: #1890FF;
+  background: #7BAE7F;
   padding: 0.8rem;
   font-weight: bolder;
   font-size: 18px;

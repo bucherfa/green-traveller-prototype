@@ -79,7 +79,7 @@ const chart = {
   },
   distance: {
     labels: ['car', 'public transport', 'bike', 'walking'],
-    series: [50, 40, 5, 2]
+    series: [50, 40, 10, 4]
   }
 }
 
