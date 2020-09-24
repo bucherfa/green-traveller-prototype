@@ -26,8 +26,7 @@ export default {
         donut: true,
         donutWidth: 80,
         showLabel: true,
-        width: '20rem',
-        height: '20rem'
+        width: '100%'
       }
     }
   }

@@ -2,7 +2,7 @@
   <div class="container">
     <today></today>
     <nuxt-link to="add">
-      <div class="fab" @click="fab">
+      <div class="fab">
         <a-icon type="plus" />
       </div>
     </nuxt-link>
@@ -14,11 +14,7 @@
 import Today from '~/components/today'
 export default {
   components: { Today },
-  methods: {
-    fab () {
-      this.$router.push()
-    }
-  }
+  methods: {}
 }
 </script>
 

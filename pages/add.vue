@@ -6,7 +6,7 @@
     </div>
     <div>
       <span>To</span>
-      <a-input placeholder="Somewhere" value="Friedrichsfelde-Ost 60" />
+      <a-input placeholder="Somewhere" value="Alt-Friedrichsfelde 60" />
     </div>
     <div class="makespace">
       <span>CO2</span>
@@ -55,7 +55,7 @@ export default {
       },
       chartOptions: {
         showLabel: true,
-        height: '200px'
+        height: '11rem'
       }
     }
   }
@@ -64,10 +64,10 @@ export default {
 
 <style>
 .ct-bar {
-  stroke: #2f54eb !important;
+  stroke: #40a9ff !important;
 }
 .makespace {
-  margin-bottom: -10rem;
+  height: 12rem;
 }
 .container {
   padding: 0.5rem;

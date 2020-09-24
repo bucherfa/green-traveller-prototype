@@ -54,7 +54,7 @@ const columns = [
 const data = [
   {
     key: '1',
-    from: 'Frie-drichs-felde-Ost 60',
+    from: 'Alt-Frie-drichs-felde 60',
     to: 'Ernst-Reuter-Platz',
     type: 'public transport',
     impact: 'low'
@@ -62,7 +62,7 @@ const data = [
   {
     key: '2',
     from: 'Ernst-Reuter-Platz',
-    to: 'Frie-drichs-felde-Ost 60',
+    to: 'Alt-Frie-drichs-felde 60',
     type: 'public transport',
     impact: 'low'
   }
